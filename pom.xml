@@ -39,7 +39,7 @@
 
         <!-- Mac/Unix -->
         <jmeter.home.mac>/Users/brandon/jenkins-tools/apache-jmeter-${jmeter.version}</jmeter.home.mac>
-        <jmeter.executablePath.mac>${jmeter.home.mac}/bin/jmeter.bat</jmeter.executablePath.mac>
+        <jmeter.executablePath.mac>${jmeter.home.mac}/bin/jmeter</jmeter.executablePath.mac>
 
         <!-- Toggle for ^ ^ -->
         <jmeter.home>${jmeter.home.mac}</jmeter.home>
