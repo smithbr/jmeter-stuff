@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                        http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example.com</groupId>
+    <artifactId>demo-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>demo-parent</name>
+    <description>Demo web test</description>
+
+    <properties>
+        <jmeter-maven-plugin.groupId>com.lazerycode.jmeter</jmeter-maven-plugin.groupId>
+        <jmeter-maven-plugin.version>2.1.0</jmeter-maven-plugin.version>
+
+        <jmeter-analysis-maven-plugin.groupId>com.lazerycode.jmeter</jmeter-analysis-maven-plugin.groupId>
+        <jmeter-analysis-maven-plugin.version>1.0.6</jmeter-analysis-maven-plugin.version>
+
+        <jmeter-graph-maven-plugin.groupId>com.github.Cka3o4Huk</jmeter-graph-maven-plugin.groupId>
+        <jmeter-graph-maven-plugin.version>0.1.1</jmeter-graph-maven-plugin.version>
+
+        <jmeter-exec-maven-plugin.groupId>org.codehaus.mojo</jmeter-exec-maven-plugin.groupId>
+        <jmeter-exec-maven-plugin.version>1.5.0</jmeter-exec-maven-plugin.version>
+
+        <jmeter.version>3.1</jmeter.version>
+        <jmeter.plugins.version>1.4.0</jmeter.plugins.version>
+        <jmeter.json.plugins.version>2.6</jmeter.json.plugins.version>
+
+        <jmeter.overrideRootLogLevel>INFO</jmeter.overrideRootLogLevel>
+        <jmeter-maven-plugin.JvmXms>1024</jmeter-maven-plugin.JvmXms>
+        <jmeter-maven-plugin.JvmXmx>3096</jmeter-maven-plugin.JvmXmx>
+
+        <!-- Windows -->
+        <jmeter.home.win>C:/Users/brand/qadesktop/apache-jmeter-${jmeter.version}</jmeter.home.win>
+        <jmeter.executablePath.win>${jmeter.home.win}/bin/jmeter.bat</jmeter.executablePath.win>
+
+        <!-- Mac/Unix -->
+        <jmeter.home.mac>/Users/brandon/apache-jmeter-${jmeter.version}</jmeter.home.mac>
+        <jmeter.executablePath.mac>${jmeter.home.mac}/bin/jmeter.bat</jmeter.executablePath.mac>
+
+        <!-- Toggle for ^ ^ -->
+        <jmeter.home>${jmeter.home.mac}</jmeter.home>
+        <jmeter.executablePath>${jmeter.executablePath.mac}</jmeter.executablePath>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
