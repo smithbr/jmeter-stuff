@@ -50,7 +50,7 @@
           </elementProp>
           <elementProp name="PATH_PREFIX" elementType="Argument">
             <stringProp name="Argument.name">PATH_PREFIX</stringProp>
-            <stringProp name="Argument.value">${__P(pathPrefix,/Users/brandon/jenkins-workspace/workspace/jmeter-stuff/tests/WebTestWithModules/src/test/jmeter)}</stringProp>
+            <stringProp name="Argument.value">${__P(pathPrefix,/Users/brandon/jenkins-workspace/workspace/WebTestWithModules/tests/WebTestWithModules/src/test/jmeter)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">${__P(pathPrefix,C:/Users/brand/workspace/jmeter-stuff/tests/WebTestWithModules/src/test/jmeter)}</stringProp>
           </elementProp>
