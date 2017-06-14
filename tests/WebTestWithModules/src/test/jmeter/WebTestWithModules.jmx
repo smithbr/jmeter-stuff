@@ -118,10 +118,10 @@
       <hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ModuleOneA" enabled="true"/>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleOneA-dataset.csv" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleOneA-dataset.txt" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleOneA-dataset.csv</stringProp>
+            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleOneA-dataset.txt</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
@@ -136,10 +136,10 @@
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ModuleOneB" enabled="true"/>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleOneB-dataset.csv" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleOneB-dataset.txt" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleOneB-dataset.csv</stringProp>
+            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleOneB-dataset.txt</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
@@ -236,10 +236,10 @@
         <hashTree/>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ModuleOneA" enabled="true"/>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleOneA-dataset.csv" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleOneA-dataset.txt" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleOneA-dataset.csv</stringProp>
+            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleOneA-dataset.txt</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
@@ -260,10 +260,10 @@
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ModuleOneB" enabled="true"/>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleOneB-dataset.csv" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleOneB-dataset.txt" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleOneB-dataset.csv</stringProp>
+            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleOneB-dataset.txt</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
@@ -366,10 +366,10 @@
         <hashTree/>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ModuleTwoA" enabled="true"/>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleTwoA-dataset.csv" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleTwoA-dataset.txt" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleTwoA-dataset.csv</stringProp>
+            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleTwoA-dataset.txt</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
@@ -390,10 +390,10 @@
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ModuleTwoB" enabled="true"/>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleTwoB-dataset.csv" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ModuleTwoB-dataset.txt" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleTwoB-dataset.csv</stringProp>
+            <stringProp name="filename">${PATH_PREFIX}/datasets/${ENV}/ModuleTwoB-dataset.txt</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
